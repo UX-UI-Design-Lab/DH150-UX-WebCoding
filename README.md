@@ -10,22 +10,22 @@ This 6-week online course covers user experience design and development for acce
 
 ## COURSE OBJECTIVES & LEARNING OUTCOMES:
 Upon completion of this course students will be able to:
-● Assess web accessibility and search engine optimization (SEO)
-● Apply semantic structure with HTML5
-● Apply accessible interface design with CSS
-● Apply javascript for HTML DOM manipulation
-● Demonstrate how to use ARIA to enhance accessible user experience
-● Demonstrate web coding to improve web accessibility and SEO
+- Assess web accessibility (WCAG 2.1 AA, WCAG 3.0) and search engine optimization (SEO)
+- Apply semantic structure with HTML5
+- Apply accessible interface design with CSS
+- Apply javascript for HTML DOM manipulation
+- Demonstrate how to use ARIA to enhance accessible user experience
+- Demonstrate web coding to improve web accessibility and SEO
 
 ## COURSE CALDENDAR 
 
 Week    |       Topics (Theory + Practice)   |   Assignment 
 --------|----------------------------------------------|------------------------
-1       | [Course Overview](#) + [Setup](#) | [A01: SEO, before & after](#)
-2       | [HTML & Semantic](#) + [Accessibility Audit](#) | [A02: Bypass block, before & after](#)
-3       | [CSS :focus, :hover](#) + [Universal Design](#) | [A03: Color contrast, before & after](#)
-4       | [Forms, Buttons](#) + [JS DOM manipulation](#) | [A04: Tab-index, before & after](#) 
-5       | [JS event handling](#) + [ARIA](#) | [A05: ScreenReader, before & after](#)
+1       | [Course Overview](#) + [Setup](#) | [A01: SEO](#)
+2       | [HTML & Semantic](#) + [Accessibility Audit](#) | [A02: Bypass block](#)
+3       | [CSS :focus, :hover](#) + [Universal Design](#) | [A03: Color contrast](#)
+4       | [Forms, Buttons](#) + [JS DOM manipulation](#) | [A04: Tab-index](#) 
+5       | [JS event handling](#) + [ARIA](#) | [A05: ScreenReader](#)
 6       | [SEO again](#) + [multimedia & content strategy](#)  | [A06: Peer Review](#) 
 
 

@@ -6,7 +6,7 @@ Digital Humanities, UCLA 2021 Summer
 ## COURSE DESCRIPTION:
 This 6-week online course covers user experience design and development for accessibility and Search Engine Optimization (SEO). Specifically, students will learn how to utilize web coding for a semantic structure & meta tags, visual styles such as colors, layout, shapes, and motion/animation, and advanced attributes (Accessible Rich Internet Applications, or ARIA) to effectively activate assistive technologies like screen readers and tab-index. Basic information design and evaluation methods will be covered along with hands-on-practice on SEO and accessibility audit.
 
-[2021 Summer Syllabus](https://docs.google.com/document/d/1Zs1mqTG9uWr69wLC7g33KVZ4HFThQlbM5oHUdc_Ml88/edit?usp=sharing) 
+[2021 Summer Syllabus](https://docs.google.com/document/d/1JSTr15pmWwhFxcuAWKqCIPlJJHsNe30j8cufvdjdLok/edit?usp=sharing) 
 
 ## COURSE OBJECTIVES & LEARNING OUTCOMES:
 Upon completion of this course students will be able to:

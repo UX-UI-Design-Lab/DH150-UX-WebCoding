@@ -19,7 +19,7 @@ Upon completion of this course students will be able to:
 
 Week    |       Topics (Theory + Practice)   |   Assignment 
 --------|----------------------------------------------|------------------------
-1       | [Course Overview](#) + [Setup](#) | [A01: SEO](#)
+1       | [Course Overview+Setup](https://github.com/UX-UI-Design-Lab/DH150-UX-WebCoding/wiki/Week01-01:-Overview) + [SEO+Accessibility](https://github.com/UX-UI-Design-Lab/DH150-UX-WebCoding/wiki/Week01-02:-impact-of-SEO-and-accessible-design) | [A01: SEO Scores](#)
 2       | [HTML & Semantic](#) + [Accessibility Audit](#) | [A02: Bypass block](#)
 3       | [CSS :focus, :hover](#) + [Universal Design](#) | [A03: Color contrast](#)
 4       | [Forms, Buttons](#) + [JS DOM manipulation](#) | [A04: Tab-index](#) 

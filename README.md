@@ -1,8 +1,6 @@
 # DH150-UX-WebCoding
 Digital Humanities, UCLA 2021 Summer
 
-# DH150: Visualization and Interface Design
-
 ## COURSE DESCRIPTION:
 This 6-week online course covers user experience design and development for accessibility and Search Engine Optimization (SEO). Specifically, students will learn how to utilize web coding for a semantic structure & meta tags, visual styles such as colors, layout, shapes, and motion/animation, and advanced attributes (Accessible Rich Internet Applications, or ARIA) to effectively activate assistive technologies like screen readers and tab-index. Basic information design and evaluation methods will be covered along with hands-on-practice on SEO and accessibility audit.
 

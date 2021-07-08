@@ -1,0 +1,1 @@
+webfonts: woff and ttf

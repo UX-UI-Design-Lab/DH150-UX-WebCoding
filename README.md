@@ -20,8 +20,8 @@ Upon completion of this course students will be able to:
 Week    |       Topics (Theory + Practice)   |   Assignment 
 --------|----------------------------------------------|------------------------
 1       | [Course Overview+Setup](https://github.com/UX-UI-Design-Lab/DH150-UX-WebCoding/wiki/Week01-01:-Overview) + [SEO+Accessibility](https://github.com/UX-UI-Design-Lab/DH150-UX-WebCoding/wiki/Week01-02:-impact-of-SEO-and-accessible-design) | [A01: SEO Scores](https://docs.google.com/document/d/12xYpFGkaV9QqvrypQXrVV4g6OH3akzhaHtGjXztzKmg/edit?usp=sharing)
-2       | [HTML & Semantic](#) + [Accessibility Audit](#) | [A02: Bypass block](https://docs.google.com/document/d/1X2slZlNaSW5kJiuegEG-6dnpkp_EXzK32eZVF2rdJ1M/edit?usp=sharing)
-3       | [CSS :focus, :hover](#) + [Universal Design](#) | [A03: Color contrast](https://docs.google.com/document/d/1HthDeTmWVlgsGaTVv22Gw4g_41EJf4NTM5V49HtiEg4/edit?usp=sharing)
+2       | [HTML & Semantic](https://github.com/UX-UI-Design-Lab/DH150-UX-WebCoding/wiki/Week02-01-HTML-basics) + [Accessibility Audit](https://github.com/UX-UI-Design-Lab/DH150-UX-WebCoding/wiki/Week02-02-HTML-element-&-attribute) | [A02: Bypass block](https://docs.google.com/document/d/1X2slZlNaSW5kJiuegEG-6dnpkp_EXzK32eZVF2rdJ1M/edit?usp=sharing)
+3       | [CSS basics](https://github.com/UX-UI-Design-Lab/DH150-UX-WebCoding/wiki/Week03-01-CSS-basics) + [CSS in context](https://github.com/UX-UI-Design-Lab/DH150-UX-WebCoding/wiki/Week03-02-CSS-in-contexts) | [A03: Color contrast](https://docs.google.com/document/d/1HthDeTmWVlgsGaTVv22Gw4g_41EJf4NTM5V49HtiEg4/edit?usp=sharing)
 4       | [Forms, Buttons](#) + [JS DOM manipulation](#) | [A04: Tab-index](#) 
 5       | [JS event handling](#) + [ARIA](#) | [A05: ScreenReader](#)
 6       | [SEO again](#) + [multimedia & content strategy](#)  | [A06: Peer Review](#) 

@@ -1,0 +1,513 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+  <!-- link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" -->
+
+  <link href="https://UX-UI-Design-Lab.github.io/DH150-UX-WebCoding/icons/css/all.css" rel="stylesheet">
+
+</head>
+
+<style>
+
+body {
+  margin: 0;
+  background: hsla(223, 20%, 90%, 1);
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-top: 1.5em;
+}
+  header {
+    background: yellow;
+    padding: 1em;
+    background: hsla(223, 30%, 80%, 0.9);
+    color: hsla(0, 10%, 10%, 0.9);
+    font-family: 'Poppins', sans-serif;
+  }
+
+  header > nav {
+    font-size: 0.8em;
+    text-align: justify;
+    width: 100%;
+    margin: auto;
+  }
+
+  footer {
+    padding: 1em;
+    background: hsla(223, 20%, 70%, 0.9);
+  }
+
+  aside {
+    display: block;
+  }
+
+  h1 {
+    font-size: 3em;
+    text-align: center;
+  }
+
+a {
+  color: #0B0278; /* hsl(245, 97%, 24%); */
+  text-decoration: none;
+  border-bottom: 1px dotted hsla(223, 20%, 10%, 0.5);
+}
+
+a:hover {
+  color: #0B0278; /* hsl(245, 97%, 24%); */
+  text-decoration: none;
+  background-color: white;
+  border-bottom: 1px solid hsla(223, 20%, 10%, 0.9);
+  border-radius: 5px;
+}
+
+#intro {
+
+  margin: 1em;
+  padding: 1em;
+  background: hsla(223, 20%, 90%, 0.8);
+}
+
+#libraryCatalog {
+  margin: 1em;
+  padding: 1em;
+  background: hsla(223, 20%, 95%, 0.6);
+}
+
+#vocabularies {
+  margin: 1em;
+  padding: 1em;
+  background: hsla(223, 20%, 95%, 0.6);
+}
+
+.myButton {
+  position: absolute;
+	left: -10000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+
+  padding: 1em;
+  line-height: 2.5em;
+  color: #0B0278;
+  text-decoration: none;
+  margin: 10px;
+  border-radius: 0 2.25em;
+  border: 1px solid hsla(223, 50%, 50%, 0.5);
+  box-shadow: 2px 2px 1px 1px hsla(223, 50%, 20%, 0.5);
+
+/*
+  border-top-left-radius:     0%;
+  border-top-right-radius:    50%;
+  border-bottom-right-radius: 0%;
+  border-bottom-left-radius:  50%;
+  */
+}
+
+
+/*
+a:hover {
+  color: hsla(223, 80%, 50%, 1);
+  text-decoration: underline;
+}
+
+a:focus {
+  font-size: 2em;
+  background: yellow;
+  color: hsla(223, 80%, 50%, 1);
+  text-decoration-style: wavy;
+}
+*/
+
+.myButton:hover, .myButton:focus {
+    padding: 1em;
+    line-height: 2.5em;
+    background-color: hsl(245, 97%, 24%); /* #0B0278 */
+    color: white;
+}
+
+.myButton:focus {
+  position: static;
+  width: auto;
+  height: auto;
+}
+
+section {
+  margin-left: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+article {
+  background: hsla(223, 20%, 95%, 0.6);
+  margin: 1em;
+  padding: 1em;
+}
+/*
+h2::after {
+  content: "hot!";
+  color:red;
+  background-color: yellow;
+}
+*/
+
+.fab {
+  padding: 5px;
+  font-size: 44px;
+  width: 44px;
+  height: 44px;
+  text-decoration: none;
+}
+
+.fab:hover {
+  opacity: 0.7;
+}
+
+#gettyMenuGeneral {
+  display: none;
+}
+
+#sideMENU {
+  display: none;
+}
+
+#mySearchInput {
+  margin-top: 0.5em;
+  padding: 0.5em;
+  border: 1px solid hsl(245, 97%, 24%); /* #0B0278 */
+  font-size: 1em;
+  border-radius: 10px 0 0 10px;
+}
+
+#mySearchButton {
+  margin-top: 0.5em;
+  padding: 0.5em;
+  border: 1px solid hsla(245, 97%, 24%, 0.8); /* #0B0278 */
+  font-size: 1em;
+  color:white;
+  background-color: hsl(245, 97%, 24%);
+  border-radius: 0 10px 10px 0;
+}
+
+#mySearchButton:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+*:focus {
+  background-color: white;
+  outline: 2px solid hsl(325, 97%, 40%);
+}
+
+
+
+</style>
+<body>
+  <a class="myButton" href="#main"> skip to content </a>
+
+  <header>
+    <nav id="gettyMenuGeneral"> What's On | Calendar | Blog | Connect with Us | Shop | Support Us | Search </nav>
+
+    <a href="https://getty.edu" target="_blank"> getty logo </a>
+    <form>
+      <input id="mySearchInput" type="search"></input><button id="mySearchButton">search</button>
+    </form>
+
+    <h1> The Getty Research Institute </h1>
+    <nav id="researchMenu">
+      <a href="https://www.getty.edu/research/exhibitions_events/" target="_blank"> Exhibition & Events </a> |
+      <a href="https://www.getty.edu/research/special_collections/" target="_blank"> Special Collections </a> |
+      <a href="https://www.getty.edu/research/library/" target="_blank"> Library </a> |
+      <a href="#" active> Search Tools & Databases</a> |
+      <a href="https://www.getty.edu/research/scholars/" target="_blank"> Scholars & Projects </a> |
+      <a href="https://www.getty.edu/research/publications/" target="_blank"> Publications </a> |
+      <a href="https://www.getty.edu/research/institute/" target="_blank"> About GRI </a>
+    </nav>
+
+  </header>
+
+  <aside id="sideMENU">
+    <section>
+
+      <div id="lefthandnav">
+          <ul id="red" class="treeview-famfamfam">
+          	<li class=" lhnbullet"><span><a href="/research/tools/article_databases/index.html" target="_self">Article &amp; Subscription Databases</a></span></li>
+          	<li class=" lhnbullet"><span><a href="http://primo.getty.edu" target="_self">Library Catalog</a></span></li>
+          	<li class="close"><span><a href="/research/tools/portal/index.html" target="_self">Getty Research Portal</a></span>
+          	<ul class="opennotonoverlay">
+          		<li class="lhnbullet"><span><a href="/research/tools/portal/guidelines.html" target="_self">Become a Contributor</a></span></li>
+          </ul>
+          </li>
+          	<li class=" lhnbullet"><span><a href="http://archives2.getty.edu:8082/xtf/search?browse-creator=first;sort=creator" target="_self">Collection Inventories &amp; Finding Aids</a></span></li>
+          	<li class="close"><span><a href="/research/tools/photo/index.html" target="_self">Photo Archive</a></span>
+          	<ul class="opennotonoverlay">
+          		<li class="lhnbullet"><span><a href="/research/tools/photo/guide.html" target="_self">Guide to the Photo Archive</a></span></li>
+          		<li class="lhnbullet"><span><a href="http://piprod.getty.edu/starweb/psc/servlet.starweb?path=psc/psc.web" target="_self">Search the Photo Archive</a></span></li>
+          		<li class="lhnbullet"><span><a href="/research/tools/digital_collections/tapestries.html" target="_self">Study Images of Tapestries</a></span></li>
+          		<li class="lhnbullet"><span><a href="/research/tools/photo/christian_art.html" target="_self">The Index of Medieval Art</a></span></li>
+          </ul>
+          </li>
+          	<li class="close"><span><a href="/research/tools/guides_bibliographies/index.html" target="_self">Research Guides &amp; Bibliographies</a></span>
+          	<ul class="opennotonoverlay">
+          </ul>
+          </li>
+          	<li class=" lhnbullet"><span><a href="http://hdl.handle.net/10020/primo-digital-collections">Digital Collections</a></span></li>
+          	<li class="close"><span><a href="/research/tools/provenance/index.html" target="_self">Collecting &amp; Provenance Research</a></span>
+          	<ul class="opennotonoverlay">
+          		<li class="close"><span><a href="/research/tools/provenance/search.html" target="_self">Search the Databases</a></span>
+          		<ul class="opennotonoverlay">
+          			<li class="lhnbullet"><span><a href="https://piprod.getty.edu/starweb/pi/servlet.starweb?path=pi/pi.web" target="_self">Getty Provenance Index</a></span></li>
+          			<li class="lhnbullet"><span><a href="https://piprod.getty.edu/starweb/piadd/servlet.starweb?path=piadd/piadd.web" target="_self">GPI: Additional Databases</a></span></li>
+          </ul>
+          </li>
+          		<li class="lhnbullet"><span><a href="/research/tools/provenance/charts.html" target="_self">What&#39;s Covered&#63;</a></span></li>
+          		<li class="lhnbullet"><span><a href="/research/tools/provenance/faq.html" target="_self">Using the Databases</a></span></li>
+          		<li class="lhnbullet"><span><a href="/research/tools/provenance/collaborators/index.html" target="_self">Contributors &amp; Partners</a></span></li>
+          		<li class="lhnbullet"><span><a href="/research/tools/provenance/german_sales.html" target="_self">German Sales Catalogs, 1900&#8211;1945</a></span></li>
+          		<li class="lhnbullet"><span><a href="/research/tools/provenance/sales_catalogs_files.html" target="_self">Sales Catalog Files</a></span></li>
+          		<li class="lhnbullet"><span><a href="/research/tools/provenance/payments_to_artists/index.html" target="_self">Payments to Artists Database</a></span></li>
+          		<li class="lhnbullet"><span><a href="/research/tools/provenance/collectors_files.html" target="_self">Collectors Files</a></span></li>
+          		<li class="lhnbullet"><span><a href="http://piprod.getty.edu/starweb/events/servlet.starweb?path=events/events.web&amp;id=events" target="_self">Events Related to the History of Collecting</a></span></li>
+          </ul>
+          </li>
+          	<li class=" lhnbullet"><span><a href="/research/tools/bha/index.html" target="_self">BHA &amp; RILA</a></span></li>
+          	<li class="close"><span><a href="/research/tools/vocabularies/index.html" target="_self">Getty Vocabularies</a></span>
+          	<ul class="opennotonoverlay">
+          		<li class="close"><span><a href="/research/tools/vocabularies/aat/index.html" target="_self">Art &amp; Architecture Thesaurus (AAT) &#174;</a></span>
+          		<ul class="opennotonoverlay">
+          			<li class="lhnbullet"><span><a href="/research/tools/vocabularies/aat/about.html" target="_self">About AAT</a></span></li>
+          			<li class="lhnbullet"><span><a href="/research/tools/vocabularies/aat/help.html" target="_self">How to use AAT</a></span></li>
+          			<li class="lhnbullet"><span><a href="/research/tools/vocabularies/aat/aat_faq.html" target="_self">AAT: Frequently Asked Questions</a></span></li>
+          </ul>
+          </li>
+          		<li class="close"><span><a href="/research/tools/vocabularies/cona/index.html" target="_self">Cultural Objects Name Authority (CONA) &#174;</a></span>
+          		<ul class="opennotonoverlay">
+          			<li class="lhnbullet"><span><a href="/research/tools/vocabularies/cona/about.html" target="_self">About CONA</a></span></li>
+          			<li class="lhnbullet"><span><a href="/research/tools/vocabularies/cona/faq.html" target="_self">CONA: Frequently Asked Questions</a></span></li>
+          </ul>
+          </li>
+          		<li class="close"><span><a href="/research/tools/vocabularies/tgn/index.html" target="_self">Getty Thesaurus of Geographic Names (TGN) &#174;</a></span>
+          		<ul class="opennotonoverlay">
+          			<li class="lhnbullet"><span><a href="/research/tools/vocabularies/tgn/about.html" target="_self">About TGN</a></span></li>
+          			<li class="lhnbullet"><span><a href="/research/tools/vocabularies/tgn/faq.html" target="_self">TGN: Frequently Asked Questions</a></span></li>
+          			<li class="lhnbullet"><span><a href="/research/tools/vocabularies/tgn/help.html" target="_self">How to use TGN</a></span></li>
+          </ul>
+          </li>
+          		<li class="close"><span><a href="/research/tools/vocabularies/ulan/index.html" target="_self">Union List of Artist Names (ULAN) &#174;</a></span>
+          		<ul class="opennotonoverlay">
+          			<li class="lhnbullet"><span><a href="/research/tools/vocabularies/ulan/about.html" target="_self">About ULAN</a></span></li>
+          			<li class="lhnbullet"><span><a href="/research/tools/vocabularies/ulan/faq.html" target="_self">ULAN: Frequently Asked Questions</a></span></li>
+          			<li class="lhnbullet"><span><a href="/research/tools/vocabularies/ulan/help.html" target="_self">How to use ULAN</a></span></li>
+          </ul>
+          </li>
+          		<li class="close"><span><a href="/research/tools/vocabularies/contribute.html" target="_self">Contribute</a></span>
+          		<ul class="opennotonoverlay">
+          			<li class="lhnbullet"><span><a href="/research/tools/vocabularies/contributors.html" target="_self">Contributors</a></span></li>
+          </ul>
+          </li>
+          		<li class="lhnbullet"><span><a href="/research/tools/vocabularies/guidelines/index.html" target="_self">Editorial Guidelines</a></span></li>
+          		<li class="lhnbullet"><span><a href="/research/tools/vocabularies/lod/index.html" target="_self">Getty Vocabularies as Linked Open Data</a></span></li>
+          		<li class="lhnbullet"><span><a href="/research/tools/vocabularies/faq.html" target="_self">Frequently Asked Questions</a></span></li>
+          		<li class="close"><span><a href="/research/tools/vocabularies/obtain/index.html" target="_self">Obtain the Getty Vocabularies</a></span>
+          		<ul class="opennotonoverlay">
+          			<li class="lhnbullet"><span><a href="/research/tools/vocabularies/obtain/download.html" target="_self">Download Center</a></span></li>
+          			<li class="lhnbullet"><span><a href="/research/tools/vocabularies/obtain/openrefine.html" target="_self">OpenRefine Reconciliation</a></span></li>
+          </ul>
+          </li>
+          		<li class="lhnbullet"><span><a href="/research/tools/vocabularies/training.html" target="_self">Training Materials</a></span></li>
+          </ul>
+          </li>
+          </ul>
+      </div>
+
+    </section>
+
+    <!-- section>
+      <h3> Visiting the Getty Research Institute </h3>
+        <address>
+          Contact Information:
+          The Getty Research Institute <br>
+          1200 Getty Center Drive <br>
+          Suite 1100 <br>
+          Los Angeles, CA 90049–1688 <br>
+          Tel. (310) 440-7335 <br>
+          <br>
+          Library Hours: <br>
+          The library is temporarily closed. <br>
+          <br>
+          Virtual Reference Desk is available: <br>
+          Monday–Friday<br>
+          9:30 a.m.–5:00 p.m.<br>
+          (310) 440-7390 or email<br>
+          <br>
+          Getty Research Institute Gallery Hours:<br>
+          The gallery is temporarily closed<br>
+        </address>
+    <section -->
+  </aside>
+
+<main id="main">
+
+  <section id="intro">
+    <h2> Annoucement </h2>
+    Even though the Museum at the Getty Center reopens on May 25, 2021, the <strong>Getty Library remains temporarily closed</strong> to the public and most staff as we prepare to welcome readers back safely to the library and the Special Collections Reading Room.<br><br>
+
+    If you are a library reader and wish to visit the Museum, you must <a href="https://www.getty.edu/visit/covid-safety/" target="_blank">reserve free timed-entry tickets</a>. Your reader badge will not give you on-site access or parking validation.<br><br>
+
+    Please subscribe to the <a href="http://blogs.getty.edu/library/" target="_blank">Getty Library blog</a> for information and updates about the library reopening.</td>
+
+    </section>
+
+  <section id="libraryCatalog">
+    <h2> <a href="https://primo.getty.edu/primo-explore/search?vid=GRI"> Library Catalog</a> <a href="#libraryCatalog" rel="bookmark">#</a> </h2>
+Begin your research with the Library Catalog.<br> Discover Research Library resources and more.
+  </section>
+
+  <section id="programs">
+    <article>
+    <h2> <a href="/about/whatwedo/opencontent.html">Open Content Program </a></h2>
+    Free images for downloading without restriction.
+    </article>
+
+    <article>
+    <h2><a href="/research/tools/portal"> Getty Research Portal&#153;</a> </h2>
+    Access to complete digital copies of art history texts, rare books, and related literature.  <br>
+    </article>
+
+    <article>
+    <h2> <a href="http://archives2.getty.edu:8082/xtf/search?browse-creator=first;sort=creator">Collection Inventories and Finding Aids</a> </h2>
+    Detailed guides to the contents of selected archival collections.  <br>
+    </article>
+</section>
+
+<section>
+  <article>
+    <h2> <a href="/research/tools/guides_bibliographies/index.html">Research Guides and Bibliographies</a></h2>
+    Overviews of Research Institute collections and specialized areas of research.  <br>
+  </article>
+
+  <article>
+    <h2> <a href="http://aata.getty.edu/">Abstracts of International Conservation Literature (AATA)</a></h2>
+    Over 100,000 abstracts related to the preservation and conservation of cultural heritage material.  <br>
+  </article>
+
+  <article>
+    <h2> <a href="http://hdl.handle.net/10020/primo-digital-collections">Digital Collections</a> </h2>
+    High-resolution images and scans of books and archival papers, available through the Library Catalog.  <br>
+  </article>
+
+  <article>
+    <h2> <a href="/research/tools/article_databases/index.html">Article and Subscription Databases</a></h2>
+    A-Z list of subscription and Getty proprietary databases.  <br>
+  </article>
+
+  <article>
+    <h2> <a href="/research/tools/article_databases/index.html">Article and Subscription Databases</a></h2>
+    Databases of archival documents, sales catalogs, and public collections.  <br>
+  </article>
+
+  <article>
+    <h2> <a href="/research/tools/provenance/index.html">Collecting and Provenance Research</a></h2>
+    An inventory of nearly two million study photographs of art and architecture.  <br>
+  </article>
+
+  <article>
+    <h2> <a href="/research/tools/bha/index.html">Bibliography of the History of Art</a> and Répertoire international de la littérature de l'art (RILA) </h2>  <br>
+    European and American visual arts material published between 1975 and 2007.  <br>
+  </article>
+
+  <article>
+    <h2> <a href="http://search.getty.edu/gateway/landing">Getty Search Gateway</a> </h2>
+    Multiple Getty resources, including images from the Open Content Program, accessible through one search tool.  <br>
+  </article>
+
+</section>
+
+  <section id="vocabularies">
+
+  <article>
+    <h2> <a href="/research/tools/vocabularies/index.html">Getty Vocabularies</a> </h2>
+    The Getty vocabularies contain structured terminology for fine art, architecture, decorative arts, archival materials, and other material culture.  <br>
+  </article>
+
+  <article>
+    <h3> The Getty Thesaurus of Geographic Names (TGN)® </h3> <br>
+    London or Londinium? TGN contains names, variant names, and hierarchical context for current and historical cities, towns, nations, empires, physical features, and archaeological sites.  <br>
+  </article>
+
+  <article>
+    <h3>The Art & Architecture Thesaurus (AAT)®   </h3> <br>
+    Catherine wheel or rose window? AAT contains terms, synonyms, definitions, and relationships for objects, styles, materials, and other topics related to art, architecture, and other material culture.  <br>
+  </article>
+
+  <article>
+    <h3>The Union List of Artist Names (ULAN)®   </h3> <br>
+    Titian or Tiziano Vecellio? ULAN contains names, variant names, and biographical information for artists, architects, studios, firms, and repositories of art.  <br>
+  </article>
+
+  <article>
+    <h3>Cultural Objects Name Authority (CONA)®   </h3> <br>
+    Mona Lisa or La Gioconda? CONA, a new vocabulary now accepting contributions, includes titles, attributions, and other information for art and architecture.  <br>
+  </article>
+
+  </section>
+
+  <a class="myButton" href="#main"> back to top </a>
+  </main>
+
+  <footer>
+    <section>
+      <h3> Visiting the Getty Research Institute </h3>
+        <address>
+          Contact Information:
+          The Getty Research Institute <br>
+          <a href="https://goo.gl/maps/AzGHuUZkbSAfWT2B6" target="_blank">
+          1200 Getty Center Drive <br>
+          Suite 1100 <br>
+          Los Angeles, CA 90049–1688 <br>
+          </a>
+
+          <br>
+          Library Hours: <br>
+          The library is temporarily closed. <br>
+          <br>
+          Virtual Reference Desk is available: <br>
+          Monday–Friday<br>
+          9:30 a.m.–5:00 p.m.<br>
+          <a href="tel:+1-310-440-7390"> +1-310-440-7390 </a> or <a href="https://fmweb.getty.edu/griscrr/reference_form.php"> email </a> <br>
+          <br>
+          Getty Research Institute Gallery Hours:<br>
+          The gallery is temporarily closed<br>
+        </address>
+    </section>
+
+
+  "getty logo"<br>
+
+  <a href="https://www.facebook.com/gettymuseum" target="_blank" class="fab fa-facebook-square"></a>
+  <a href="https://www.twitter.com/gettymuseum" target="_blank" class="fab fa-twitter-square"></a>
+  <a href="https://www.instagram.com/gettymuseum" target="_blank" class="fab fa-instagram-square"></a>
+  <a href="https://www.youtube.com/gettymuseum" target="_blank" class="fab fa-youtube-square"></a>
+
+
+  <nav id="footerMENU"> <a href="https://www.getty.edu/visit/" target="_blank"> visit </a> |
+    <a href="https://www.getty.edu/whats-on/" target="_blank"> what's on </a> |
+      <a href="https://www.getty.edu/art/" target="_blank"> explore art </a> |
+      <a href="https://www.getty.edu/resources" target="_blank"> resouces </a> |
+      <a href="https://www.getty.edu/our-work/" target="_blank"> our work </a> |
+      <a href="https://www.getty.edu/about/" target="_blank"> about </a>
+    </nav>
+
+  <hr>
+  <small>
+    This website is a markup of the original <a href="https://www.getty.edu/research/tools/" target="_blank"> Getty Research Institute.</a> This work is only for the assignment02, DH150: Web-coding for UX by Sookie. Here is <a href="https://ux-ui-design-lab.github.io/DH150-UX-WebCoding/assignment02-audit.png" target="_blank"> the accessibility/seo audit result. </a>
+  </small>
+
+  </footer>
+
+<script> </script>
+</body>
+
+</html>

@@ -23,9 +23,17 @@ Week    |       Topics (Theory + Practice)   |   Assignment
 2       | [HTML & Semantic](https://github.com/UX-UI-Design-Lab/DH150-UX-WebCoding/wiki/Week02-01-HTML-basics) + [Accessibility Audit](https://github.com/UX-UI-Design-Lab/DH150-UX-WebCoding/wiki/Week02-02-HTML-element-&-attribute) | [A02: Bypass block](https://docs.google.com/document/d/1X2slZlNaSW5kJiuegEG-6dnpkp_EXzK32eZVF2rdJ1M/edit?usp=sharing)
 3       | [CSS basics](https://github.com/UX-UI-Design-Lab/DH150-UX-WebCoding/wiki/Week03-01-CSS-basics) + [CSS in context](https://github.com/UX-UI-Design-Lab/DH150-UX-WebCoding/wiki/Week03-02-CSS-in-contexts) | [A03: Color contrast](https://docs.google.com/document/d/1HthDeTmWVlgsGaTVv22Gw4g_41EJf4NTM5V49HtiEg4/edit?usp=sharing)
 4       | [Buttons](https://github.com/UX-UI-Design-Lab/DH150-UX-WebCoding/wiki/Week04-01-Buttons) + [JS DOM manipulation](https://github.com/UX-UI-Design-Lab/DH150-UX-WebCoding/wiki/Week04-02-Forms-JS) | [A04: Tab-index](https://docs.google.com/document/d/1jsYusakE3gVt7X5NVnvNZWP7L9V1V5BWEKOXYQfdZqw/edit?usp=sharing) 
-5       | [ARIA](https://github.com/UX-UI-Design-Lab/DH150-UX-WebCoding/wiki/week05-ARIA) | [A05: ScreenReader](#)
-6       | [SEO again + multimedia & content strategy](https://github.com/UX-UI-Design-Lab/DH150-UX-WebCoding/wiki/week06-content-strategy)  | [A06: Peer Review](#) 
+5       | [ARIA](https://github.com/UX-UI-Design-Lab/DH150-UX-WebCoding/wiki/week05-ARIA) | [A05: ARIA-ScreenReader](https://docs.google.com/document/d/1wENLtRj-otQfCIVVBrxKHJSt1tB0IwGMQBzmhj7PYYg/edit?usp=sharing)
+6       | [SEO again + multimedia & content strategy](https://github.com/UX-UI-Design-Lab/DH150-UX-WebCoding/wiki/week06-content-strategy)  | [A06: Project documentation](https://docs.google.com/document/d/1W_UVwLqxXM6wrkNPC36IaN_802wys_4kZnGu5ZG46yA/edit?usp=sharing) [Peer Review](https://docs.google.com/document/d/1AlWRGoiSMnDiDjt50xcrhkrgk6mn_T7AxUhsO36Td18/edit?usp=sharing) 
 
+## Student Works
+
+- [National Funeral History Museum project by Labiba Alam](https://lisa58.github.io/DH150/Week6/projectdocumentation.html)
+- [Santa Monica History Museum project by Natalie Anggawidjaja](https://nataliemarisca.github.io/assignmentone/assignment06.html#santamonica)
+- [The Museum of Death by Jacob Cipriano](https://jcip12.github.io/DH150-JACOBCIPRIANO/assignment06-web-documentation.html)
+- [de Young Museum project by Valentin Nguyen](https://valentinnguyen.github.io/DH150/Week06/Assignment06.html)
+- [California Science Center project by Leah Kim](https://leahkim07.github.io/DH150/assignment06.html#met)
+- [Marconi Automotive Museum project by Josiah Janes](https://joxiah1.github.io/DH150-JosiahJanes-Assignment01/assignment06.html)
 
 ## Contact
 Sookie at g dot ucla dot edu

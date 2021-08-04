@@ -24,7 +24,7 @@ Week    |       Topics (Theory + Practice)   |   Assignment
 3       | [CSS basics](https://github.com/UX-UI-Design-Lab/DH150-UX-WebCoding/wiki/Week03-01-CSS-basics) + [CSS in context](https://github.com/UX-UI-Design-Lab/DH150-UX-WebCoding/wiki/Week03-02-CSS-in-contexts) | [A03: Color contrast](https://docs.google.com/document/d/1HthDeTmWVlgsGaTVv22Gw4g_41EJf4NTM5V49HtiEg4/edit?usp=sharing)
 4       | [Buttons](https://github.com/UX-UI-Design-Lab/DH150-UX-WebCoding/wiki/Week04-01-Buttons) + [JS DOM manipulation](https://github.com/UX-UI-Design-Lab/DH150-UX-WebCoding/wiki/Week04-02-Forms-JS) | [A04: Tab-index](https://docs.google.com/document/d/1jsYusakE3gVt7X5NVnvNZWP7L9V1V5BWEKOXYQfdZqw/edit?usp=sharing) 
 5       | [ARIA](https://github.com/UX-UI-Design-Lab/DH150-UX-WebCoding/wiki/week05-ARIA) | [A05: ARIA-ScreenReader](https://docs.google.com/document/d/1wENLtRj-otQfCIVVBrxKHJSt1tB0IwGMQBzmhj7PYYg/edit?usp=sharing)
-6       | [SEO again + multimedia & content strategy](https://github.com/UX-UI-Design-Lab/DH150-UX-WebCoding/wiki/week06-content-strategy)  | [A06: Project documentation](https://docs.google.com/document/d/1W_UVwLqxXM6wrkNPC36IaN_802wys_4kZnGu5ZG46yA/edit?usp=sharing) [Peer Review](https://docs.google.com/document/d/1AlWRGoiSMnDiDjt50xcrhkrgk6mn_T7AxUhsO36Td18/edit?usp=sharing) 
+6       | [SEO again + multimedia & content strategy](https://github.com/UX-UI-Design-Lab/DH150-UX-WebCoding/wiki/week06-content-strategy)  | [A06: Project documentation](https://docs.google.com/document/d/1W_UVwLqxXM6wrkNPC36IaN_802wys_4kZnGu5ZG46yA/edit?usp=sharing) & [Peer Review](https://docs.google.com/document/d/1AlWRGoiSMnDiDjt50xcrhkrgk6mn_T7AxUhsO36Td18/edit?usp=sharing) 
 
 ## Student Works
 
